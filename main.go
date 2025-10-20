@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -21,5 +22,8 @@ func setupRouter() *gin.Engine {
 
 func main() {
 	r := setupRouter()
+
+	fmt.Println("hello look at me!")
+
 	r.Run(":8080")
 }
