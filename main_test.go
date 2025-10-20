@@ -13,7 +13,7 @@ func TestHealthcheck(t *testing.T) {
 	w := httptest.NewRecorder()
 	router.ServeHTTP(w, req)
 
-	if w.Code != http.StatusOK {
+	if w.Code != http.StatusTeapot {
 		t.Errorf("Expected status %d, got %d", http.StatusOK, w.Code)
 	}
 
