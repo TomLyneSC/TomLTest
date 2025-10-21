@@ -17,6 +17,8 @@ func setupRouter() *gin.Engine {
 		})
 	})
 
+	f := "Hello"
+
 	return r
 }
 
