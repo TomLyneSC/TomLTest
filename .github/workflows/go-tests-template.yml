@@ -1,0 +1,25 @@
+name: [Name here]
+
+on:
+  [Trigger condition here]
+  [Trigger condition here]
+  [Trigger condition here]
+
+jobs:
+  [Job Name Here]:
+    runs-on: ubuntu-latest
+
+    steps:
+      - [Step here]
+      - [Step here]
+      - [Step here]
+      - [Step here]
+
+  [Job Name Here]:
+    runs-on: ubuntu-latest
+
+    steps:
+      - [Step here]
+      - [Step here]
+      - [Step here]
+      - [Step here]
